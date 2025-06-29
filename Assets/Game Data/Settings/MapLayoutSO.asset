@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a887be011ef54743ac16bf55d4d0da5, type: 3}
+  m_Name: MapLayoutSO
+  m_EditorClassIdentifier: 
+  mapRoomDataList:
+  - posX: -9.662624
+    posY: 3.6
+    column: 0
+    line: 0
+    roomType: 1
+    roomState: 1
+    linkTo:
+    - {x: 1, y: 0}
+  - posX: -9.662624
+    posY: 1.1999998
+    column: 0
+    line: 1
+    roomType: 1
+    roomState: 0
+    linkTo:
+    - {x: 1, y: 1}
+  - posX: -9.662624
+    posY: -1.2000003
+    column: 0
+    line: 2
+    roomType: 1
+    roomState: 0
+    linkTo:
+    - {x: 1, y: 0}
+  - posX: -9.662624
+    posY: -3.6000004
+    column: 0
+    line: 3
+    roomType: 1
+    roomState: 0
+    linkTo:
+    - {x: 1, y: 0}
+  - posX: -5.7357616
+    posY: 2
+    column: 1
+    line: 0
+    roomType: 2
+    roomState: 2
+    linkTo:
+    - {x: 2, y: 2}
+    - {x: 2, y: 3}
+  - posX: -7.1058064
+    posY: -2
+    column: 1
+    line: 1
+    roomType: 2
+    roomState: 0
+    linkTo:
+    - {x: 2, y: 1}
+    - {x: 2, y: 0}
+  - posX: -3.67665
+    posY: 3.6
+    column: 2
+    line: 0
+    roomType: 16
+    roomState: 0
+    linkTo:
+    - {x: 3, y: 3}
+  - posX: -4.0414734
+    posY: 1.1999998
+    column: 2
+    line: 1
+    roomType: 16
+    roomState: 0
+    linkTo:
+    - {x: 3, y: 3}
+    - {x: 3, y: 1}
+  - posX: -3.111745
+    posY: -1.2000003
+    column: 2
+    line: 2
+    roomType: 2
+    roomState: 0
+    linkTo:
+    - {x: 3, y: 3}
+    - {x: 3, y: 0}
+    - {x: 3, y: 2}
+  - posX: -4.001285
+    posY: -3.6000004
+    column: 2
+    line: 3
+    roomType: 4
+    roomState: 0
+    linkTo:
+    - {x: 3, y: 3}
+  - posX: -0.6126282
+    posY: 3.6
+    column: 3
+    line: 0
+    roomType: 4
+    roomState: 0
+    linkTo:
+    - {x: 4, y: 0}
+  - posX: -0.40876475
+    posY: 1.1999998
+    column: 3
+    line: 1
+    roomType: 16
+    roomState: 0
+    linkTo:
+    - {x: 4, y: 2}
+  - posX: 0.121934
+    posY: -1.2000003
+    column: 3
+    line: 2
+    roomType: 4
+    roomState: 0
+    linkTo:
+    - {x: 4, y: 1}
+  - posX: 0.25336993
+    posY: -3.6000004
+    column: 3
+    line: 3
+    roomType: 2
+    roomState: 0
+    linkTo:
+    - {x: 4, y: 1}
+  - posX: 2.189836
+    posY: 3
+    column: 4
+    line: 0
+    roomType: 4
+    roomState: 0
+    linkTo:
+    - {x: 5, y: 1}
+  - posX: 2.1280687
+    posY: 0
+    column: 4
+    line: 1
+    roomType: 2
+    roomState: 0
+    linkTo:
+    - {x: 5, y: 0}
+  - posX: 3.4509068
+    posY: -3
+    column: 4
+    line: 2
+    roomType: 4
+    roomState: 0
+    linkTo:
+    - {x: 5, y: 0}
+  - posX: 5.92977
+    posY: 2
+    column: 5
+    line: 0
+    roomType: 16
+    roomState: 0
+    linkTo:
+    - {x: 6, y: 0}
+  - posX: 5.2808313
+    posY: -2
+    column: 5
+    line: 1
+    roomType: 16
+    roomState: 0
+    linkTo:
+    - {x: 6, y: 0}
+  - posX: 8.662624
+    posY: 0
+    column: 6
+    line: 0
+    roomType: 32
+    roomState: 0
+    linkTo: []
+  linePositionList: []
